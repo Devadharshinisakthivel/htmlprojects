@@ -1,0 +1,94 @@
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top=0;
+    
+}
+ul{
+    list-style-type: none;
+    display: inline;
+    float: right;
+
+    
+}
+li{
+    color: gray;
+    display: inline;
+    padding: 30px;
+    text-align: center;
+
+
+}
+h1{
+    display: inline;
+}
+.menu:hover{ 
+    color: white;
+    cursor: pointer;
+}
+
+  .search-container {
+      position: relative;
+      width: 60%;
+      margin-top: 50px;
+      margin-left: 250px;
+    }
+
+    .search-container input {
+      width: 100%;
+      padding: 10px 40px 10px 15px; /* Add padding for the icon */
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 25px;
+      outline: none;
+    }
+
+    .search-container .search-icon {
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      transform: translateY(-50%);
+      font-size: 18px;
+      color: #888;
+      pointer-events: none; /* Prevent interaction with the icon */
+    }
+    .box{
+        border-color: black;
+        border-style:solid ;
+        display: inline-block;
+        border-width: 2px;
+        width: 220px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .pro{
+        color: black;
+    }
+    .pro:hover{
+        cursor: pointer;
+        color:white;
+    }
+    .product{
+        text-align: center;
+    }
+    .box:hover{
+        background-color: gray;
+        color: white;
+        cursor: pointer;
+    }
+    .about
+    {
+        margin-top: 60px;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 20px;
+    }
+    a{
+        color: gray;
+    }
+    a{
+        text-decoration: none;
+    }
